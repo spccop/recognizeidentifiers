@@ -4,11 +4,11 @@ def checkAlnum(st):
         return "YES"
     return 'NO'
 if '_' in st:
+    print(st)
     st1 = st.replace('_','')
     print(checkAlnum(st1))
-    print(st)
+    print(st1)
 else:
     print(checkAlnum(st))
-Output: 
- YES
-123gfg_
+    
+
